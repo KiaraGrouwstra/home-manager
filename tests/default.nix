@@ -178,6 +178,7 @@ import nmtSrc {
         [
           # keep-sorted start case=no numeric=yes
           ./lib/generators
+          ./lib/keybindings
           ./lib/types
           ./modules/files
           ./modules/home-environment

@@ -10,6 +10,7 @@ rec {
   deprecations = import ./deprecations.nix { inherit lib; };
   generators = import ./generators.nix { inherit lib; };
   gvariant = import ./gvariant.nix { inherit lib; };
+  keybindings = import ./keybindings.nix { inherit lib; };
   maintainers = import ./maintainers.nix;
   strings = import ./strings.nix { inherit lib; };
   types = import ./types.nix { inherit gvariant lib; };
