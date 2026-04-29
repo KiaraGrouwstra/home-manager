@@ -25,6 +25,7 @@ let
       ./accounts/email.nix
       ./config/home-cursor.nix
       ./config/i18n.nix
+      ./contracts.nix
       ./dbus.nix
       ./files.nix
       ./home-environment.nix

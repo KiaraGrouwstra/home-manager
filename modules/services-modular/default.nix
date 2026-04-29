@@ -141,10 +141,13 @@ let
       nixpkgsPath = pkgs.path;
       xdgConfigHome = config.xdg.configHome;
     };
+    inherit (config) contracts;
+    upstreamContractTypes = config.contractTypes;
   };
 in
 {
   meta.maintainers = [ lib.maintainers.kiara ];
+  imports = [ ./contracts-bridge.nix ];
 
   options.home.services = mkOption {
     description = ''
