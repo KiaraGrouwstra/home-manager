@@ -1,7 +1,7 @@
 {
   description = "Home Manager for Nix";
 
-  inputs.nixpkgs.url = "github:KiaraGrouwstra/nixpkgs/4ab72bdf077bf49fddce9d68504e92683c197bae";
+  inputs.nixpkgs.url = "github:KiaraGrouwstra/nixpkgs/2dc9a3f328c9b569c7a3e36b633816073cc400a0";
 
   outputs =
     {
