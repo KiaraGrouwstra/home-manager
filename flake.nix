@@ -1,7 +1,7 @@
 {
   description = "Home Manager for Nix";
 
-  inputs.nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst";
+  inputs.nixpkgs.url = "github:KiaraGrouwstra/nixpkgs/461ec4b35b8cde00a965cbb37ec5d810de47d3ff";
 
   outputs =
     {
